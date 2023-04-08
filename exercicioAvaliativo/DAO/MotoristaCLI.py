@@ -24,7 +24,7 @@ class MotoristaCLI:
         nome = input("Nome: ")
         documento = input("Documento: ")
         passageiro = Passageiro(documento, nome)
-        op = True
+        op = 1
         corridas = []
         while (op):
             nota = input("Nota: ")
