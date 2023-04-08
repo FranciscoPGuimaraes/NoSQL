@@ -32,6 +32,7 @@ class MotoristaCLI:
             valor = input("Valor: ")
             corrida = Corrida(nota, distancia, valor, passageiro)
             corridas.insert(corrida)
+            op = input("Deseja continuar? [1] sim [0] não")
         nota = input("Nota: ")
         motorista = Motorista(nota, corridas)
         MotoristaDAO.create_motorista(motorista)
